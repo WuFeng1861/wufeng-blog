@@ -1,0 +1,41 @@
+body.fresh {
+  --background-color: #e8f5e9;
+  --text-color: #2e7d32;
+  --font-family: 'Roboto', sans-serif;
+  --logo-color: #fff;
+  --header-background: #4caf50;
+  --header-text-color: #fff;
+  --content-background: #ffffff;
+  --content-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --title-color: #2e7d32;
+  --post-item-background: #f1f8e9;
+  --post-item-border: 1px solid #c8e6c9;
+  --post-item-hover-background: #dcedc8;
+
+  background: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+}
+
+.fresh .header {
+  background-color: var(--header-background);
+  color: var(--header-text-color);
+}
+
+.fresh .content {
+  background: var(--content-background);
+  box-shadow: var(--content-shadow);
+}
+
+.fresh h1 {
+  color: var(--title-color);
+}
+
+.fresh .blog-post-item {
+  background: var(--post-item-background);
+  border: var(--post-item-border);
+}
+
+.fresh .blog-post-item:hover {
+  background: var(--post-item-hover-background);
+}

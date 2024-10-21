@@ -1,39 +1,11 @@
-# wufeng-blog
-
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
-
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1. 将样式改为科幻风格
+   - 使用深色背景和霓虹色调
+   - 添加发光效果和渐变
+   - 优化字体和布局以适应科幻主题
+2. 拆分开发环境和打包环境使用不同的配置文件进行拆分
+3. 然后添加package.json文件的命令。使用dev、build:dev和dev:pro和build:pro来区分开发和打包环境
+4. 进行拆包优化，将ant-design-vue和vue相关的包进行相关的拆分操作
+5. 进行路由懒加载，减少首屏时间
+6. 在每次页面打开的时候打印首屏时间和白屏时间在日志里面方便我分析网页问题
+7. 在打包的时候去除所有的日志信息
+8. 将科幻风格对应的css提取出去问单独的文件在src下面添加一个文件夹为styles，方便后续修改和添加主题风格

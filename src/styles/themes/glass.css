@@ -1,0 +1,117 @@
+body.glass {
+  --background-color: linear-gradient(135deg, rgba(18, 18, 18, 0.95), rgba(30, 30, 30, 0.95));
+  --text-color: #e0e0e0;
+  --font-family: 'Helvetica Neue', Arial, sans-serif;
+  --logo-color: #64b5f6;
+  --header-background: rgba(0, 0, 0, 0.2);
+  --header-text-color: #e0e0e0;
+  --content-background: rgba(255, 255, 255, 0.05);
+  --content-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  --title-color: #90caf9;
+  --post-item-background: rgba(255, 255, 255, 0.05);
+  --post-item-border: 1px solid rgba(255, 255, 255, 0.1);
+  --post-item-hover-background: rgba(255, 255, 255, 0.1);
+  --blur-effect: blur(10px);
+
+  background: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+}
+
+.glass .header {
+  background-color: var(--header-background);
+  backdrop-filter: var(--blur-effect);
+  -webkit-backdrop-filter: var(--blur-effect);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass .content {
+  background: var(--content-background);
+  box-shadow: var(--content-shadow);
+  backdrop-filter: var(--blur-effect);
+  -webkit-backdrop-filter: var(--blur-effect);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass h1 {
+  color: var(--title-color);
+}
+
+.glass .blog-post-item {
+  background: var(--post-item-background);
+  border: var(--post-item-border);
+  backdrop-filter: var(--blur-effect);
+  -webkit-backdrop-filter: var(--blur-effect);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.glass .blog-post-item:hover {
+  background: var(--post-item-hover-background);
+  transform: translateY(-5px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.glass .ant-select-selector,
+.glass .ant-btn {
+  background: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  transition: all 0.3s ease;
+  color: var(--text-color) !important;
+}
+
+.glass .ant-select-selector:hover,
+.glass .ant-btn:hover {
+  background: rgba(255, 255, 255, 0.2) !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.glass .ant-list-item-meta-title {
+  color: var(--title-color);
+}
+
+.glass .ant-list-item-meta-description {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.glass .ant-avatar {
+  background-color: rgba(100, 181, 246, 0.3) !important;
+  color: #90caf9 !important;
+}
+
+.glass .ant-dropdown-menu {
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: var(--blur-effect);
+  -webkit-backdrop-filter: var(--blur-effect);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass .ant-dropdown-menu-item {
+  color: var(--text-color);
+}
+
+.glass .ant-dropdown-menu-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.glass .ant-select-dropdown {
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: var(--blur-effect);
+  -webkit-backdrop-filter: var(--blur-effect);
+}
+
+.glass .ant-select-item {
+  color: var(--text-color);
+}
+
+.glass .ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.glass .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  background-color: rgba(255, 255, 255, 0.2);
+}

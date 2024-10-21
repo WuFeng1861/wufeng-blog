@@ -1,0 +1,41 @@
+body.gray {
+  --background-color: #f0f0f0;
+  --text-color: #333;
+  --font-family: 'Arial', sans-serif;
+  --logo-color: #fff;
+  --header-background: #333;
+  --header-text-color: #fff;
+  --content-background: #fff;
+  --content-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --title-color: #333;
+  --post-item-background: #f9f9f9;
+  --post-item-border: 1px solid #ddd;
+  --post-item-hover-background: #f0f0f0;
+
+  background: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+}
+
+.gray .header {
+  background-color: var(--header-background);
+  color: var(--header-text-color);
+}
+
+.gray .content {
+  background: var(--content-background);
+  box-shadow: var(--content-shadow);
+}
+
+.gray h1 {
+  color: var(--title-color);
+}
+
+.gray .blog-post-item {
+  background: var(--post-item-background);
+  border: var(--post-item-border);
+}
+
+.gray .blog-post-item:hover {
+  background: var(--post-item-hover-background);
+}

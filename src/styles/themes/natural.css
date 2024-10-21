@@ -1,0 +1,39 @@
+body.natural {
+  --background-color: linear-gradient(135deg, #e0f7fa, #b3e5fc, #81d4fa);
+  --text-color: #333;
+  --font-family: 'Inter', sans-serif;
+  --logo-color: #00ffff;
+  --header-background: rgba(255, 255, 255, 0.8);
+  --content-background: rgba(255, 255, 255, 0.9);
+  --content-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --title-color: #1890ff;
+  --post-item-background: white;
+  --post-item-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --post-item-hover-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+  background: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+}
+
+.natural .header {
+  background-color: var(--header-background);
+}
+
+.natural .content {
+  background: var(--content-background);
+  box-shadow: var(--content-shadow);
+}
+
+.natural h1 {
+  color: var(--title-color);
+}
+
+.natural .blog-post-item {
+  background: var(--post-item-background);
+  box-shadow: var(--post-item-shadow);
+}
+
+.natural .blog-post-item:hover {
+  box-shadow: var(--post-item-hover-shadow);
+}

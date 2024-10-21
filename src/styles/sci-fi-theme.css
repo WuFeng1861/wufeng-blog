@@ -1,0 +1,21 @@
+/* 科幻风格 CSS */
+body {
+  background: linear-gradient(135deg, #000000, #1a1a1a);
+  color: #00ffff;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.glow-text {
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+.neon-border {
+  border: 2px solid #00ffff;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+.gradient-bg {
+  background: linear-gradient(45deg, #00ffff, #0080ff);
+}
+
+/* 添加更多科幻风格的 CSS 类 */

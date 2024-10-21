@@ -1,0 +1,55 @@
+body.sci-fi {
+  --background-color: linear-gradient(135deg, #000000, #1a1a1a);
+  --text-color: #00ffff;
+  --font-family: 'Orbitron', sans-serif;
+  --logo-color: #00ffff;
+  --header-background: rgba(0, 0, 0, 0.8);
+  --content-background: rgba(0, 255, 255, 0.05);
+  --content-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+  --title-color: #00ffff;
+  --title-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  --post-item-background: rgba(0, 0, 0, 0.5);
+  --post-item-border: 1px solid #00ffff;
+  --post-item-hover-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+  --description-color: #7fffff;
+
+  background: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+}
+
+.sci-fi .header {
+  background: var(--header-background);
+  backdrop-filter: blur(10px);
+}
+
+.sci-fi .content {
+  background: var(--content-background);
+  box-shadow: var(--content-shadow);
+}
+
+.sci-fi h1 {
+  color: var(--title-color);
+  text-shadow: var(--title-shadow);
+}
+
+.sci-fi .blog-post-item {
+  background: var(--post-item-background);
+  border: var(--post-item-border);
+}
+
+.sci-fi .blog-post-item:hover {
+  box-shadow: var(--post-item-hover-shadow);
+}
+
+.sci-fi .post-title {
+  color: var(--title-color);
+}
+
+.sci-fi .ant-list-item-meta-description {
+  color: var(--description-color) !important;
+}
+
+.sci-fi .blog-post-container .post-content {
+  color: var(--text-color);
+}
